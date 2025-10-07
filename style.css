@@ -1,0 +1,84 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    text-decoration: none;
+}
+
+.nav :first-child{
+border: 2px solid #000000;
+/* padding: 10px; */
+width: 100px;
+height: 30px;
+text-align: center;
+padding-top: 8px;
+text-decoration: none;
+border-radius: 10px;
+}
+.nav :last-child{
+border: 2px solid #000000;
+/* padding: 10px; */
+width: 100px;
+height: 30px;
+text-align: center;
+padding-top: 8px;
+text-decoration: none;
+border-radius: 10px;
+}
+.nav a{
+    color: #000000;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgba(193, 190, 190, 0.811);
+    box-shadow: 6px 1px 10px 4px rgb(75, 68, 68);
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: 900;
+    font-style: oblique;
+    text-shadow: 2px 1.5px 5px ;
+}
+
+#weight-guide{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: cursive;
+    /* font-weight: 500; */
+    font-style: italic;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bolder;
+    cursor: pointer;
+        box-shadow: 6px 1px 10px 4px rgb(75, 68, 68);
+        text-shadow: 1.5px 1.5px 6px;
+}
+
+.container p{
+   display: flex;
+   justify-content: center;
+   font-family: cursive; 
+   gap: 20px;
+}
+#result{
+    font-family: cursive;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+}
+
