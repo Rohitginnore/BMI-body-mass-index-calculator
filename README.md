@@ -44,4 +44,4 @@ Formula:  BMI = Weight/(Height)^2
 
 ## 📂 Folder Structure
 
-Live-Demo :- [https://rohitginnore.github.io/BMI-body-mass-index-calculator/]
+
